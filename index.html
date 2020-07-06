@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+    <title>Class 1 Lab</title>
+    <style type="text/css">
+      body {
+        background-color: darkslateblue;}
+        h1 {
+          color:goldenrod;}
+    </style>
+  </head>
+  <main>
+    <body>
+        <h1>Class 1 Lab</h1>
+        <p style=color:indianred;background:lemonchiffon;>For Class 1, here is my script.</p>
+        <p style=color:mediumvioletred;background:mintcream;>Do you prefer the mountains or the sea?</p>
+        <p style=color:navy;background:lightsteelblue;>What do you like about your answer?</p>
+        <p style=color:slateblue;background:mediumaquamarine;>Why do you like the thing that you answered Question 2 with?</p>
+        <p style=color:slateblue;background:moccasin;>If you saw the thing you like for the given reason at the place you like, what would you do?</p>
+
+        <script>
+
+          var mountainSeaAnswer = prompt('Do you prefer the mountains or the sea?');
+          alert(mountainSeaAnswer + ' is a fine choice. I agree.');
+          console.log(mountainSeaAnswer + ' is what the user entered');
+        
+          var whatDoYouLike = prompt('What do you like about ' + mountainSeaAnswer + '?');
+          alert(whatDoYouLike + " is one of the best parts of " + mountainSeaAnswer);
+          console.log(whatDoYouLike + ' is what they like about the sea or mountains');
+          
+          var whyDoYouLike = prompt('Why do you like ' + whatDoYouLike + ' with regards to the ' + mountainSeaAnswer + '?');
+          alert(whyDoYouLike + ' is about as good a reason as I can think of to like ' + whatDoYouLike + ' about the ' + mountainSeaAnswer);
+          console.log(whyDoYouLike + ' is why the user likes it');
+
+          var whatToDo = prompt('What would you do if you saw ' + whatDoYouLike + ' at the ' + mountainSeaAnswer + ' with such qualities as ' + whyDoYouLike + '?');
+          alert('Because they are ' + whyDoYouLike + ', you would ' + whatToDo + ' with ' + whatDoYouLike + ' at the ' + mountainSeaAnswer + '?' + ' You sure know how to party!');
+          console.log(whatToDo + 'is what they would do');
+
+
+        </script>
+      <footer>By Mike Wohl for Code 201 (July 2020)</footer>
+
+    </body>
+  </main>
+</html>
