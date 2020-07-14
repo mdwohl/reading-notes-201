@@ -9,3 +9,4 @@ Notes for various reading assignments for *Code 201*
 1. [Reading Class 04](class04.md)
 1. Reading Class 05
 1. Reading Class 06
+1. [Reading Class 07](class07.md)
