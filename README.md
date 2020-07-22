@@ -15,3 +15,4 @@ Notes for various reading assignments for *Code 201*
 1. Reading Class 10
 1. [Reading Class 11](class11.md)
 1. [Reading Class 12](class12.md)
+1. [Reading Class 13](class13.md)
